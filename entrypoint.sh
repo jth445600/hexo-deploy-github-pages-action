@@ -44,7 +44,7 @@ cd "${GITHUB_WORKSPACE}"
 
 echo ">>> Install NPM dependencies ..."
 npm install
-
+npm install hexo-renderer-pug hexo-renderer-stylus --save
 echo ">>> Clean cache files ..."
 npx hexo clean
 
